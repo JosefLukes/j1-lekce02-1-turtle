@@ -8,6 +8,13 @@ public class HlavniProgram {
         Turtle zofka;
 
         zofka = new Turtle();
+
+        //zofka.penUp();
+        for (int i = 0; i < 4; i++) {
+            zofka.move(100);
+            zofka.turnRight(90);
+        }
+
     }
 
 }
